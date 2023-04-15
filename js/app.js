@@ -2,8 +2,6 @@ let formulario = document.getElementById("formulario"),
 mostrar = document.getElementById("btnMostrar");
 formulario.addEventListener("submit", cargarTarea);
 mostrar.addEventListener("click", mostrarLista);
-let seccionPadre = document.querySelector("#contenedorPadre");
-
 let tareas = [];
 
 function cargarTarea(e) {
