@@ -1,0 +1,5 @@
+.boton-eliminar {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red; /* Color del botón de eliminar */
+}

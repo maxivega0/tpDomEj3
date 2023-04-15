@@ -23,6 +23,7 @@
   </head>
   <body>
     <main>
+        <div id="elemento[i]"></div>
       <section class="container">
         <h1 class="text-center">Registro de Tareas</h1>
         <form class="row" id="formulario">
@@ -32,7 +33,7 @@
             </label>
             <div class="d-flex">
               <input
-                id="tarea"
+                id="cargaTarea"
                 type="text"
                 placeholder="Ej: Sacar al perro"
                 required
@@ -47,12 +48,15 @@
           </div>
         </form>
       </section>
-      <section class="container mt-4 text-center">
-        <h2 class="text-center">Listado de tareas</h2>
-       <button class="btn btn-outline-info" id="btnMostrar">Mostrar tareas</button>
+      <section class="container mt-4 hj" id="contenedorPadre">
+        <article class="text-center">
+            <h2 class="text-center">Listado de tareas</h2>
+            <button class="btn btn-outline-info" id="btnMostrar">Mostrar tareas</button>
+        </article>
        <div class="row container">
-        <ul id="lista"></ul>
-      </div>
+        <ul class="mt-4" id="lista"></ul>
+        
+        </div>
       </section>
     </main>
     <footer class="bg-dark text-light text-center py-4">
